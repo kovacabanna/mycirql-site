@@ -1,0 +1,71 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<style>text{font-family:"IPAGothic","IPAPGothic",sans-serif;}</style>
+<marker id="arrow5" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+  <path d="M0,0 L10,5 L0,10 z" fill="#b9933f"/>
+</marker>
+</defs>
+<rect width="1200" height="675" fill="#f7f3ec"/>
+
+<!-- top: calendar -->
+<text x="600" y="55" text-anchor="middle" font-size="26" fill="#2b2b2b" font-weight="bold">忘れたくない日を、アプリが思い出す</text>
+
+<rect x="120" y="90" width="960" height="200" rx="16" fill="#fffdf9" stroke="#e4ddcf" stroke-width="2"/>
+<g stroke="#e4ddcf" stroke-width="2">
+  <line x1="120" y1="150" x2="1080" y2="150"/>
+  <line x1="256" y1="90" x2="256" y2="290"/>
+  <line x1="392" y1="90" x2="392" y2="290"/>
+  <line x1="528" y1="90" x2="528" y2="290"/>
+  <line x1="664" y1="90" x2="664" y2="290"/>
+  <line x1="800" y1="90" x2="800" y2="290"/>
+  <line x1="936" y1="90" x2="936" y2="290"/>
+</g>
+<text x="188" y="130" text-anchor="middle" font-size="15" fill="#6b6b6b">月</text>
+<text x="324" y="130" text-anchor="middle" font-size="15" fill="#6b6b6b">火</text>
+<text x="460" y="130" text-anchor="middle" font-size="15" fill="#6b6b6b">水</text>
+<text x="596" y="130" text-anchor="middle" font-size="15" fill="#6b6b6b">木</text>
+<text x="732" y="130" text-anchor="middle" font-size="15" fill="#6b6b6b">金</text>
+<text x="868" y="130" text-anchor="middle" font-size="15" fill="#6b6b6b">土</text>
+<text x="1004" y="130" text-anchor="middle" font-size="15" fill="#6b6b6b">日</text>
+
+<!-- pins -->
+<circle cx="460" cy="220" r="20" fill="#3c9460"/>
+<text x="460" y="226" text-anchor="middle" font-size="14" fill="#fffdf9">🎂</text>
+<text x="460" y="270" text-anchor="middle" font-size="14" fill="#2b2622">誕生日</text>
+
+<circle cx="732" cy="220" r="20" fill="#c0414a"/>
+<text x="732" y="226" text-anchor="middle" font-size="14" fill="#fffdf9">🕯️</text>
+<text x="732" y="270" text-anchor="middle" font-size="13" fill="#c0414a">命日（四十九日〜三回忌）</text>
+
+<!-- bottom: export -->
+<text x="600" y="345" text-anchor="middle" font-size="24" fill="#2b2b2b" font-weight="bold">選んだ人だけ、名簿になる</text>
+
+<g>
+  <rect x="120" y="380" width="220" height="60" rx="10" fill="#fffdf9" stroke="#3c9460" stroke-width="2"/>
+  <rect x="140" y="398" width="24" height="24" rx="4" fill="#3c9460"/>
+  <path d="M146 410 l6 6 12 -14" stroke="#fffdf9" stroke-width="3" fill="none"/>
+  <text x="250" y="416" text-anchor="middle" font-size="16" fill="#2b2622">田中一郎</text>
+
+  <rect x="120" y="450" width="220" height="60" rx="10" fill="#fffdf9" stroke="#3c9460" stroke-width="2"/>
+  <rect x="140" y="468" width="24" height="24" rx="4" fill="#3c9460"/>
+  <path d="M146 480 l6 6 12 -14" stroke="#fffdf9" stroke-width="3" fill="none"/>
+  <text x="250" y="486" text-anchor="middle" font-size="16" fill="#2b2622">田中花子</text>
+
+  <rect x="120" y="520" width="220" height="60" rx="10" fill="#fffdf9" stroke="#e4ddcf" stroke-width="2"/>
+  <rect x="140" y="538" width="24" height="24" rx="4" fill="none" stroke="#c9c2b3" stroke-width="2"/>
+  <text x="250" y="556" text-anchor="middle" font-size="16" fill="#9a917f">佐藤次郎</text>
+</g>
+
+<path d="M360 460 L500 460" stroke="#b9933f" stroke-width="5" marker-end="url(#arrow5)"/>
+
+<rect x="520" y="400" width="230" height="120" rx="14" fill="#fffdf9" stroke="#b9933f" stroke-width="3"/>
+<text x="635" y="450" text-anchor="middle" font-size="30">📄</text>
+<text x="635" y="490" text-anchor="middle" font-size="19" fill="#2b2622" font-weight="bold">CSV / PDF</text>
+
+<rect x="800" y="380" width="280" height="200" rx="14" fill="#fffdf9" stroke="#e4ddcf" stroke-width="2"/>
+<text x="940" y="420" text-anchor="middle" font-size="17" fill="#2b2622" font-weight="bold">名簿の中身</text>
+<text x="940" y="455" text-anchor="middle" font-size="15" fill="#6b6b6b">結婚式の招待客リスト</text>
+<text x="940" y="483" text-anchor="middle" font-size="15" fill="#6b6b6b">法事の連絡先一覧</text>
+<text x="940" y="511" text-anchor="middle" font-size="15" fill="#6b6b6b">相関図・家系図もPDFに</text>
+<text x="940" y="545" text-anchor="middle" font-size="15" fill="#6b6b6b">香典返しの住所リストにも</text>
+</svg>
