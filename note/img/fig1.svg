@@ -1,49 +1,38 @@
 <svg width="1200" height="675" viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg">
 <defs>
-<style>
-  text{font-family:"IPAGothic","IPAPGothic",sans-serif;}
-</style>
+<style>text{font-family:"IPAGothic","IPAPGothic",sans-serif;}</style>
 </defs>
 <rect width="1200" height="675" fill="#f7f3ec"/>
-<text x="600" y="72" text-anchor="middle" font-size="30" fill="#2b2b2b" font-weight="bold">「わからない」には、4種類あった</text>
+<text x="600" y="72" text-anchor="middle" font-size="46" fill="#2b2b2b" font-weight="bold">「わからない」には、4種類あった</text>
 
-<!-- 4 cards -->
+<!-- row template: rect 40..1160, height 100 -->
 <g>
-  <!-- card template positions -->
-  <!-- card1 -->
-  <rect x="70" y="130" width="240" height="430" rx="18" fill="#fffdf9" stroke="#e4ddcf" stroke-width="2"/>
-  <circle cx="190" cy="220" r="54" fill="#e4ddcf"/>
-  <text x="190" y="235" text-anchor="middle" font-size="46" fill="#6b6b6b">？</text>
-  <text x="190" y="320" text-anchor="middle" font-size="22" fill="#2b2622" font-weight="bold">その1</text>
-  <text x="190" y="360" text-anchor="middle" font-size="24" fill="#2b2b2b">名前も</text>
-  <text x="190" y="392" text-anchor="middle" font-size="24" fill="#2b2b2b">顔もわからない</text>
-
-  <!-- card2 -->
-  <rect x="330" y="130" width="240" height="430" rx="18" fill="#fffdf9" stroke="#e4ddcf" stroke-width="2"/>
-  <circle cx="450" cy="220" r="54" fill="#e4ddcf"/>
-  <path d="M424 210 q26 -24 52 0 M424 232 q26 22 52 0" stroke="#6b6b6b" stroke-width="4" fill="none" stroke-linecap="round"/>
-  <text x="450" y="320" text-anchor="middle" font-size="22" fill="#2b2622" font-weight="bold">その2</text>
-  <text x="450" y="360" text-anchor="middle" font-size="24" fill="#2b2b2b">顔はわかるが</text>
-  <text x="450" y="392" text-anchor="middle" font-size="24" fill="#2b2b2b">名前がわからない</text>
-
-  <!-- card3 -->
-  <rect x="590" y="130" width="240" height="430" rx="18" fill="#fffdf9" stroke="#e4ddcf" stroke-width="2"/>
-  <circle cx="710" cy="220" r="54" fill="#e4ddcf"/>
-  <text x="710" y="235" text-anchor="middle" font-size="30" fill="#6b6b6b">田中</text>
-  <text x="710" y="320" text-anchor="middle" font-size="22" fill="#2b2622" font-weight="bold">その3</text>
-  <text x="710" y="360" text-anchor="middle" font-size="24" fill="#2b2b2b">名前はわかるが</text>
-  <text x="710" y="392" text-anchor="middle" font-size="24" fill="#2b2b2b">顔と一致しない</text>
-
-  <!-- card4 highlighted -->
-  <rect x="850" y="118" width="280" height="454" rx="18" fill="#fffdf9" stroke="#c0414a" stroke-width="3"/>
-  <circle cx="990" cy="220" r="54" fill="#f3dadc"/>
-  <text x="990" y="235" text-anchor="middle" font-size="30" fill="#c0414a">田中</text>
-  <text x="990" y="320" text-anchor="middle" font-size="22" fill="#c0414a" font-weight="bold">その4</text>
-  <text x="990" y="356" text-anchor="middle" font-size="24" fill="#2b2b2b">名前も顔も</text>
-  <text x="990" y="388" text-anchor="middle" font-size="24" fill="#2b2b2b">わかるけれど</text>
-  <text x="990" y="424" text-anchor="middle" font-size="25" fill="#c0414a" font-weight="bold">血縁関係が</text>
-  <text x="990" y="456" text-anchor="middle" font-size="25" fill="#c0414a" font-weight="bold">わからない</text>
+  <rect x="40" y="140" width="1120" height="100" rx="16" fill="#fffdf9" stroke="#e4ddcf" stroke-width="2"/>
+  <circle cx="120" cy="190" r="42" fill="#e4ddcf"/>
+  <text x="120" y="203" text-anchor="middle" font-size="38" fill="#6b6b6b">？</text>
+  <text x="200" y="203" font-size="40" fill="#2b2622" font-weight="bold">その1：名前も顔もわからない</text>
 </g>
 
-<text x="600" y="630" text-anchor="middle" font-size="20" fill="#6b6b6b">連絡先アプリには、この4つのどれも解決する場所がない</text>
+<g>
+  <rect x="40" y="255" width="1120" height="100" rx="16" fill="#fffdf9" stroke="#e4ddcf" stroke-width="2"/>
+  <circle cx="120" cy="305" r="42" fill="#e4ddcf"/>
+  <path d="M96 296 q24 -22 48 0 M96 316 q24 20 48 0" stroke="#6b6b6b" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <text x="200" y="318" font-size="40" fill="#2b2622" font-weight="bold">その2：顔はわかるが、名前がわからない</text>
+</g>
+
+<g>
+  <rect x="40" y="370" width="1120" height="100" rx="16" fill="#fffdf9" stroke="#e4ddcf" stroke-width="2"/>
+  <circle cx="120" cy="420" r="42" fill="#e4ddcf"/>
+  <text x="120" y="431" text-anchor="middle" font-size="28" fill="#6b6b6b">田中</text>
+  <text x="200" y="433" font-size="40" fill="#2b2622" font-weight="bold">その3：名前はわかるが、顔と一致しない</text>
+</g>
+
+<g>
+  <rect x="40" y="485" width="1120" height="110" rx="16" fill="#fffdf9" stroke="#c0414a" stroke-width="4"/>
+  <circle cx="120" cy="540" r="42" fill="#f3dadc"/>
+  <text x="120" y="551" text-anchor="middle" font-size="28" fill="#c0414a">田中</text>
+  <text x="200" y="552" font-size="42" fill="#c0414a" font-weight="bold">その4：血縁関係だけ、わからない</text>
+</g>
+
+<text x="600" y="645" text-anchor="middle" font-size="30" fill="#6b6b6b">連絡先アプリには、この4つを書く場所がない</text>
 </svg>

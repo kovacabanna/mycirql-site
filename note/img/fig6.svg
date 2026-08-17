@@ -3,52 +3,51 @@
 <style>text{font-family:"IPAGothic","IPAPGothic",sans-serif;}</style>
 </defs>
 <rect width="1200" height="675" fill="#f7f3ec"/>
-<text x="600" y="60" text-anchor="middle" font-size="28" fill="#2b2b2b" font-weight="bold">あなたの情報は、外に出ない</text>
+<text x="600" y="44" text-anchor="middle" font-size="38" fill="#2b2b2b" font-weight="bold">あなたの情報は、外に出ない</text>
 
-<!-- inner boundary -->
-<rect x="250" y="110" width="700" height="330" rx="24" fill="#fffdf9" stroke="#3c9460" stroke-width="3" stroke-dasharray="10 6"/>
-<text x="600" y="145" text-anchor="middle" font-size="17" fill="#3c9460" font-weight="bold">この中だけに保存される</text>
+<rect x="120" y="66" width="960" height="336" rx="26" fill="#fffdf9" stroke="#3c9460" stroke-width="4" stroke-dasharray="12 8"/>
+<text x="600" y="102" text-anchor="middle" font-size="26" fill="#3c9460" font-weight="bold">この中だけに保存される</text>
 
 <!-- iPhone -->
-<rect x="330" y="190" width="130" height="220" rx="18" fill="#2b2622"/>
-<rect x="342" y="212" width="106" height="176" rx="4" fill="#fffdf9"/>
-<circle cx="395" cy="368" r="10" fill="#6b6b6b"/>
-<text x="395" y="440" text-anchor="middle" font-size="17" fill="#2b2622" font-weight="bold">あなたの端末</text>
+<rect x="235" y="135" width="140" height="215" rx="18" fill="#2b2622"/>
+<rect x="247" y="153" width="116" height="180" rx="5" fill="#fffdf9"/>
+<circle cx="305" cy="335" r="9" fill="#6b6b6b"/>
+<text x="305" y="385" text-anchor="middle" font-size="27" fill="#2b2622" font-weight="bold">あなたの端末</text>
 
 <!-- lock -->
-<g transform="translate(575,255)">
-  <rect x="-28" y="0" width="56" height="46" rx="8" fill="#b9933f"/>
-  <path d="M-16 0 v-14 a16 16 0 0 1 32 0 v14" stroke="#b9933f" stroke-width="8" fill="none"/>
-  <circle cx="0" cy="22" r="6" fill="#fffdf9"/>
+<g transform="translate(600,225)">
+  <rect x="-32" y="0" width="64" height="52" rx="9" fill="#b9933f"/>
+  <path d="M-18 0 v-16 a18 18 0 0 1 36 0 v16" stroke="#b9933f" stroke-width="9" fill="none"/>
+  <circle cx="0" cy="25" r="7" fill="#fffdf9"/>
 </g>
-<text x="575" y="330" text-anchor="middle" font-size="15" fill="#6b6b6b">開発者も</text>
-<text x="575" y="352" text-anchor="middle" font-size="15" fill="#6b6b6b">中身を見れない</text>
+<text x="600" y="325" text-anchor="middle" font-size="24" fill="#6b6b6b">開発者も</text>
+<text x="600" y="355" text-anchor="middle" font-size="24" fill="#6b6b6b">中身を見れない</text>
 
 <!-- iCloud -->
-<g transform="translate(800,270)">
-  <path d="M-90 20 a40 40 0 0 1 4 -79 a55 55 0 0 1 106 10 a35 35 0 0 1 -6 69 z" fill="#e4ddcf"/>
-  <text x="0" y="10" text-anchor="middle" font-size="16" fill="#2b2622" font-weight="bold">iCloud</text>
+<g transform="translate(900,215)">
+  <path d="M-95 22 a42 42 0 0 1 4 -83 a58 58 0 0 1 112 10 a37 37 0 0 1 -6 73 z" fill="#e4ddcf"/>
+  <text x="0" y="10" text-anchor="middle" font-size="20" fill="#2b2622" font-weight="bold">iCloud</text>
 </g>
-<text x="800" y="380" text-anchor="middle" font-size="17" fill="#2b2622" font-weight="bold">あなた自身のiCloud</text>
+<text x="900" y="385" text-anchor="middle" font-size="27" fill="#2b2622" font-weight="bold">あなた自身のiCloud</text>
 
 <!-- outside crossed out -->
-<g font-size="16" fill="#9a917f">
-  <rect x="60" y="470" width="200" height="70" rx="12" fill="#fffdf9" stroke="#e4ddcf" stroke-width="2"/>
-  <text x="160" y="512" text-anchor="middle">開発者のサーバー</text>
-  <line x1="70" y1="480" x2="250" y2="530" stroke="#c0414a" stroke-width="3"/>
-  <line x1="70" y1="530" x2="250" y2="480" stroke="#c0414a" stroke-width="3"/>
+<g font-size="26" fill="#9a917f" font-weight="bold">
+  <rect x="110" y="440" width="300" height="90" rx="14" fill="#fffdf9" stroke="#e4ddcf" stroke-width="2"/>
+  <text x="260" y="493" text-anchor="middle">開発者のサーバー</text>
+  <line x1="122" y1="452" x2="398" y2="518" stroke="#c0414a" stroke-width="4"/>
+  <line x1="122" y1="518" x2="398" y2="452" stroke="#c0414a" stroke-width="4"/>
 
-  <rect x="500" y="470" width="200" height="70" rx="12" fill="#fffdf9" stroke="#e4ddcf" stroke-width="2"/>
-  <text x="600" y="512" text-anchor="middle">SNS</text>
-  <line x1="510" y1="480" x2="690" y2="530" stroke="#c0414a" stroke-width="3"/>
-  <line x1="510" y1="530" x2="690" y2="480" stroke="#c0414a" stroke-width="3"/>
+  <rect x="450" y="440" width="300" height="90" rx="14" fill="#fffdf9" stroke="#e4ddcf" stroke-width="2"/>
+  <text x="600" y="493" text-anchor="middle" font-size="32">SNS</text>
+  <line x1="462" y1="452" x2="738" y2="518" stroke="#c0414a" stroke-width="4"/>
+  <line x1="462" y1="518" x2="738" y2="452" stroke="#c0414a" stroke-width="4"/>
 
-  <rect x="940" y="470" width="200" height="70" rx="12" fill="#fffdf9" stroke="#e4ddcf" stroke-width="2"/>
-  <text x="1040" y="512" text-anchor="middle">広告会社</text>
-  <line x1="950" y1="480" x2="1130" y2="530" stroke="#c0414a" stroke-width="3"/>
-  <line x1="950" y1="530" x2="1130" y2="480" stroke="#c0414a" stroke-width="3"/>
+  <rect x="790" y="440" width="300" height="90" rx="14" fill="#fffdf9" stroke="#e4ddcf" stroke-width="2"/>
+  <text x="940" y="493" text-anchor="middle">広告会社</text>
+  <line x1="802" y1="452" x2="1078" y2="518" stroke="#c0414a" stroke-width="4"/>
+  <line x1="802" y1="518" x2="1078" y2="452" stroke="#c0414a" stroke-width="4"/>
 </g>
 
-<text x="600" y="605" text-anchor="middle" font-size="15" fill="#6b6b6b">※ 郵便番号から住所を調べるときだけ、外部の住所サービスに郵便番号を送ります</text>
-<text x="600" y="632" text-anchor="middle" font-size="15" fill="#6b6b6b">それ以外にデータが外へ出ることはありません</text>
+<text x="600" y="588" text-anchor="middle" font-size="26" fill="#6b6b6b">※郵便番号から住所を調べるときだけ、外部の住所サービスに送ります</text>
+<text x="600" y="622" text-anchor="middle" font-size="26" fill="#6b6b6b">それ以外にデータが外へ出ることはありません</text>
 </svg>
