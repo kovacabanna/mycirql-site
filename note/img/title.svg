@@ -41,8 +41,8 @@
 <line x1="90" y1="210" x2="640" y2="210" stroke="#e4ddcf" stroke-width="2"/>
 
 <text x="90" y="252" font-size="19" fill="#b9933f" font-weight="bold" letter-spacing="2">ESSAY</text>
-<text x="90" y="308" font-size="42" fill="#2b2622" font-weight="bold">父の葬儀で作った</text>
-<text x="90" y="360" font-size="42" fill="#2b2622" font-weight="bold">アプリの話</text>
+<text x="90" y="308" font-size="40" fill="#2b2622" font-weight="bold">葬儀の面倒さへの怒りを</text>
+<text x="90" y="360" font-size="40" fill="#2b2622" font-weight="bold">アプリにぶつけた話</text>
 
 <text x="90" y="420" font-size="23" fill="#6b6b6b">遠い親戚も、疎遠な人も、このアプリで管理。</text>
 </svg>
